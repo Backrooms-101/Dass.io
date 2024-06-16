@@ -1,0 +1,686 @@
+                                   /*THIS IS DASS.CSS*/
+     
+                                   /*EVERY BODY AFFECTING TAGS*/
+     
+     body{
+          background-color:rgb(245, 245, 234);
+          font-family: Arial, Helvetica, sans-serif;
+          cursor:default;
+          scroll-snap-align: y mandatory;
+          }
+     
+     html{
+          scroll-behavior: smooth;
+          scroll-padding-top: 10px;
+          }
+     
+     ::-moz-selection {
+                       color: white;
+                       background: rgba(30, 31, 30, 0.75);
+                       -webkit-text-stroke: 1px rgb(0, 0, 0);
+                       }
+     
+     ::selection {
+                  color: white;
+                  background: rgba(30, 31, 30, 0.75);
+                  -webkit-text-stroke: 1px rgb(0, 0, 0);
+                  }
+     
+     
+     .topic-change-hr{
+                      padding: 2px;
+                      margin-bottom:50px;
+                      margin-top: 50px;
+                      margin-left: 19.1%;
+                      margin-right: 27.5%;
+                      }
+     
+     .page-change-hr{
+                     padding: 5px;
+                     margin-bottom:75px;
+                     margin-top: 75px;
+                     margin-left: 19.1%;
+                     }
+     
+     
+     
+     
+     
+                                   /*EVERY IMAGES CODES*/
+     
+               /*BLOBFISH IMAGE*/
+     
+     .blobfish-image{
+                     width: 400px;
+                     padding:0%;
+                     border:5px solid gray;
+                     border-radius: 20px;
+                     cursor: progress;
+                     user-select: none;
+                     }
+     
+     .blobfish-div:hover{
+                         transform: scale(1.0763);
+                         transition: .2s;
+                         }
+                         
+     .blobfish-div{
+                   width:400px;
+                   position: relative;
+                   overflow: hidden;
+                   margin:0 auto;
+                   border-radius: 20px;
+                   cursor: default;
+                   }
+
+     .blobfish-div ::-moz-selection{
+                                    color: white;
+                                    background: rgba(230, 216, 15, 0.50);
+                                    }
+
+     .blobfish-div ::selection{
+                               color: white;
+                               background: rgba(230, 216, 15, 0.50);
+                               }
+     
+     .blobfish-div:hover .blobfish-content{
+                                           left: 0;
+                                           transition-delay: .5s;
+                                           }
+     
+     .blobfish-image{
+                     width: 400px;
+                     height: auto;
+                     }
+     
+     .blobfish-content{
+                       color:#fff;
+                       background-color: rgba(0,0,0,0.3);
+                       position:absolute;
+                       top: 0;
+                       left:100%;
+                       padding:0px;
+                       box-sizing: border-box;
+                       border-radius: 20px;
+                       width: 420px;
+                       height:330px;
+                       transition: all 1s;
+                       overflow: scroll;
+                       overflow: scroll;
+                       overflow-x: auto;
+                       overflow-y:auto ;
+                       }
+     
+     
+     
+     
+     
+               /*SEA URCHINS IMAGE*/
+     
+     .sea-urchins-image{
+                        width:300px;
+                        float:left;
+                        border:5px solid gray;
+                        border-radius: 20px;
+                        width:400px;
+                        cursor: progress;
+                        user-select: none;
+                        }
+     
+     .sea-urchins-div{
+                      width:400px;
+                      position: relative;
+                      overflow: hidden;
+                      cursor: default;
+                      }
+
+     .sea-urchins-div ::-moz-selection{
+                                      color: white;
+                                      background: rgba(230, 216, 15, 0.50);
+                                      }
+     .sea-urchins-div ::selection{
+                                 color: white;
+                                 background: rgba(230, 216, 15, 0.50);
+                                 }
+     
+     .sea-urchins-div:hover{
+                            transform: scale(1.0763);
+                            transition: .2s;
+                            }
+     
+     .sea-urchins-div:hover .sea-urchins-content{
+                                                 left:0;
+                                                 transition-delay: .5s;
+                                                 }
+     
+     .sea-urchins-div img{
+                         width:300px;
+                         height:auto;
+                         }
+     
+     .sea-urchins-content{
+                          color:#fff;
+                          background-color: rgba(0,0,0,0.3);
+                          position:absolute;
+                          top: 0;
+                          left:100%;
+                          padding:0px;
+                          box-sizing: border-box;
+                          border-radius: 20px;
+                          width: 320px;
+                          height:230px;
+                          transition: all 1s;
+                          overflow-y:auto;
+                          overflow-x: hidden;
+                          }
+     
+     
+     
+     
+     
+               /*MOLLUSKS IMAGE*/
+     
+     .mollusks-image{
+                     width:300px;
+                     float:left;
+                     border:5px solid gray;
+                     border-radius: 20px;
+                     width:400px;
+                     cursor: progress;
+                     user-select: none;
+                     }
+     
+     .mollusks-div{
+                   width:400px;
+                   position: relative;
+                   overflow: hidden;
+                   cursor: default;
+                   }
+
+     .mollusks-div ::-moz-selection{
+                                   color: white;
+                                   background: rgba(230, 216, 15, 0.50);
+                                   }
+
+     .mollusks-div ::selection{
+                              color: white;
+                              background: rgba(230, 216, 15, 0.50);
+                              }
+     
+     .mollusks-div:hover{
+                         transform: scale(1.0763);
+                         transition: .2s;
+                         }
+                    
+     .mollusks-div:hover .mollusks-content{
+                                           left:0;
+                                           transition-delay: .5s;
+                                           }
+     
+     .mollusks-div img{
+                       width:300px;
+                       height:auto;
+                       }
+     
+     .mollusks-content{
+                       color:#fff;
+                       background-color: rgba(0,0,0,0.3);
+                       position:absolute;
+                       top: 0;
+                       left:100%;
+                       padding:0px;
+                       box-sizing: border-box;
+                       border-radius: 20px;
+                       width: 320px;
+                       height:240px;
+                       transition: all 1s;
+                       overflow: scroll;
+                       overflow-x: hidden;
+                       overflow: scroll;
+                       overflow-x: auto;
+                       overflow-y:auto ;
+                       }
+     
+     
+     
+     
+     
+                                   /*FLOATING BARS AND PROMOTIONAL LINKS CODES*/
+     
+              /*SIDEBAR*/
+     
+     .sidebar-details{
+                      position: fixed;
+                      user-select: none;
+                      }
+     
+     .sidebar-div{
+                  display:flex;
+                  position:absolute;
+                  }
+     
+     .sidebar-main-div:hover{
+                        background:rgb(221, 205, 172);
+                        transition: .2s;
+                        }
+     
+     .sidebar-main-div{
+                       position:fixed;
+                       width: 19%;
+                       height:100%;
+                       background:rgb(216, 202, 175);
+                       border-radius: 20px;
+                       border:2.5px solid gray;
+                       }
+     
+     .sidebar-h2{
+                 color:rgb(212, 154, 38);
+                 -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+                 background-color: rgba(205, 181, 133, 0.686);
+                 border-radius: 80px;
+                 text-align: center;
+                 margin-bottom:30px;
+                 font-size: 32px;
+                 text-transform: uppercase;
+                 font-weight: 800;
+                 text-decoration: solid;
+                 cursor:no-drop;
+                 }
+     
+     .sidebar-h2:hover{
+                       background-color: rgba(201, 172, 115, 0.904);
+                       border-radius: 10px;
+                       transform: scale(1.01);
+                       transition: .2s;
+                       }
+     
+     .sidebar-main-div ul li a{
+                               color:black;
+                               text-decoration: none;
+                               font-weight:bold;
+                               cursor: pointer;
+                               font-size: 30px;
+                               }
+     
+     .sidebar-main-div ul li{
+                             margin-top:50px;
+                             margin-bottom:50px;
+                             font-size: 20px;
+                             cursor: default;
+                             padding-top: 2.5px;
+                             padding-bottom: 2.5px;
+                             }
+     
+     .sidebar-main-div ul li{
+                             list-style: none;
+                             }
+     
+     .sidebar-main-div ul li:hover{
+                                   background:rgb(214, 190, 142);
+                                   border-radius:5px;
+                                   text-decoration:underline;
+                                   }
+     
+     
+     
+     
+     
+               /*STICKY OVERBAR*/
+     
+     .sticky-overbar{
+                     user-select: none;
+                     }
+     
+     .so-header{
+                position:fixed;
+                top:6.6px;
+                background-color: rgba(170, 129, 15,.55);
+                justify-content:space-between;
+                z-index:100;
+                margin-left:44.4%;
+                border-radius: 10px;
+                right: 1.52%;
+                }
+               
+     .so-a{
+           color:white;
+           text-decoration:none;
+           padding: 20px;
+           font-size: 20;
+           }
+     
+     .so-a:hover{
+                 color:rgb(0, 0, 0);
+                 background-color: rgba(170, 129, 15,100);
+                 transition: 0.3s;
+                 border-radius: 10px;
+                 }
+     
+     .so-li{
+            display:inline;
+            }
+     
+     
+     
+     
+     
+               /*NON-STCKY OVERBAR*/
+     
+     .overbar{
+              position:relative;
+              left:20%;
+              margin-right: 20%;
+              }
+     
+     .overbar-img{
+                  position: relative;
+                  width: 1490px;
+                  height:440px;
+                  border-radius: 10px;
+                  user-select: none;
+                  }
+     
+     .overbar-img:hover{
+                        transform: scale(1.009);
+                        transition: .2s;
+                        }
+     
+     
+     
+     
+     
+               /*ACCOUNT LOGIN*/
+     
+     .account-login{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    font-family: "poppins",sans-serif;
+                    margin-left: 500px;
+                    width: 420px;
+                    background:transparent;
+                    background-color: rgb(34, 2, 2);
+                    border: 2px solid rgba(255,255,255, .2);
+                    color: white;
+                    position: relative;
+                    border-radius: 10px;
+                    padding: 30px 40px;
+                    user-select: none;
+                    }
+     
+     .account-login ::-moz-selection {
+                                     color: white;
+                                     background:rgba(207, 137, 116);
+                                     }
+     
+     .account-login ::selection {
+                                color: black;
+                                background:yellow;
+                                }
+     
+     .al-h1{
+            font-size:36px;
+            text-align: center;
+            }
+     
+     .al-input-box{
+                   width: 100%;
+                   height: 50px;
+                   margin: 30px 0;
+                   }
+     
+     .al-input{
+               width: 100%;
+               height: 100%;
+               background: transparent;
+               border: none;
+               outline: none;
+               border: 2px solid rgba(255,255,255, .2);
+               border-radius: 40px;
+               font-size: 16px;
+               color: white;
+               padding: 10px 35px 10px 10px;
+               }
+     
+     .al-input::placeholder{
+                            color: white;
+                            }
+     
+     .al-input i{
+                 position: absolute;
+                 right:20px;
+                 top: 50%;
+                 transform:translateY(-50%);
+                 font-size: 20px;
+                 }
+     
+     .remember-forgot{
+                      display:flex;
+                      justify-content:space-between;
+                      font-size:14.5px;
+                      margin: -15 0 15px;
+                      }
+     
+     .remember-forgot label input{
+                                  accent-color: white;
+                                  margin-right: 3px;
+                                  }
+     
+     .remember-forgot a{
+                        color: white;
+                        text-decoration: none;
+                        }
+     
+     .remember-forgot a:hover{
+                              text-decoration: underline;
+                              }
+     
+     .btn{
+          width: 100%;
+          height: 45px;
+          background: white;
+          border: none;
+          outline: none;
+          border-radius: 40px;
+          box-shadow: 0 0 10px rgba(0,0,0, .1);
+          cursor: pointer;
+          font-size: 16px;
+          color: #333;
+          font-weight: 600;
+          }
+     
+     .register-link{
+                    font-size: 14.5px;
+                    text-align: center;
+                    margin: 20px 0 15px;
+                    }
+     
+     .rg-a{
+           color: white;
+           text-decoration: none;
+           font-weight: 600;
+           }
+     
+     .rg-a:hover{
+                 text-decoration: underline;
+                 }
+     
+     .all-input{
+                cursor:pointer;
+                }
+     
+     
+     
+     
+     
+               /*APP LINKS*/
+     
+     /* start from here */
+     
+     
+     
+     
+     
+                                   /*EVERY ACTUAL CONTENT CODES*/
+     
+               /*HEADINGS*/
+     
+     .question{
+               text-align: center;
+               font-size: 64px;
+               text-decoration: underline;
+               background-color:rgb(230, 230, 212);
+               border-radius: 10px;
+               cursor:crosshair;
+               margin-right:28.5%;
+               padding-top:0px;
+               margin-top:0%;
+               padding-bottom: 25px;
+               margin-left: 20%;
+               user-select: none;
+               }
+     
+     .ans{
+          font-size:28px;
+          border-radius: 10px;
+          width:95%;
+          background-color:rgb(230, 230, 212);
+          margin-right:28.3%;
+          padding-bottom: 20px;
+          padding-left:20px;
+          padding-top: 20px;
+          cursor: crosshair;
+          word-spacing: 6px;
+          scroll-snap-align: center;
+          }
+     
+     .qa-div{
+             margin-left: 20%;
+             cursor: crosshair;
+             margin-top: 25px;
+             background-color:rgb(230, 230, 212);
+             border-radius: 10px;
+             margin-right:28.5%;
+             cursor: crosshair;
+             }
+     
+     
+     
+     .mab-content-blobfish{
+                           text-align: center;
+                           font-size: 64px;
+                           text-decoration: underline;
+                           background-color:rgb(230, 230, 212);
+                           padding:25px;
+                           border-radius: 10px;
+                           cursor:crosshair;
+                           padding-left: 0%;
+                           margin-right:28.5%;
+                           padding-top:0px;
+                           margin-top:0%;
+                           margin-left: 20%;
+                           user-select: none;
+                           }
+     
+     .mabcb-blobfish-diet{
+                          text-align: center;
+                          font-size: 64px;
+                          text-decoration: underline;
+                          background-color:rgb(230, 230, 212);
+                          padding:25px;
+                          border-radius: 10px;
+                          cursor:crosshair;
+                          padding-left: 0%;
+                          margin-right:28.5%;
+                          padding-top:0px;
+                          margin-top:0%;
+                          margin-left:20%;
+                          user-select: none;
+                          }
+     
+     .mabcbbd-content{
+                      font-size:28px;
+                      margin-right:28.3%;
+                      border-radius: 10px;
+                      background-color:rgb(230, 230, 212);
+                      padding-bottom: 20px;
+                      padding-left:20px;
+                      padding-top: 20px;
+                      cursor: crosshair;
+                      margin-left: 20%;
+                      word-spacing: 6px;
+                      }
+     
+     
+     
+     
+     
+                                   /*OUTRO*/
+     
+     .outro{
+            background-color:rgb(6, 6, 64);
+            margin-left: 20%;
+            margin-right: 28%;
+            }
+     
+     
+     
+     
+     
+                                /*THIS IS THE DUMPYARD FOR UNUSEFUL CODES,
+                                YOU CAN USE THESE IF THEY ARE IMPORTANT*/
+                                
+     /*.ans-heading-content{
+                            text-align: center;
+                            font-size:64px;
+                            text-decoration: underline;
+                            ;padding:25px;
+                            border-radius:10px;
+                            cursor: default;
+                            padding-right:28.5%;
+                            padding-left:20px;
+                            width: 50%;
+                            cursor: crosshair;
+                            }*/
+     
+     
+     /*.mab-content-blobfish{
+                             text-align: center;
+                             font-size: 64px;
+                             text-decoration: underline;
+                             background-color:rgb(230, 230, 212);
+                             padding:25px;
+                             border-radius: 10px;
+                             cursor:default;
+                             padding-right:0%;
+                             padding-left:60px;
+                             width: 69.7%;
+                             cursor: crosshair;
+                             margin-right: 28.3%;
+                             }*/
+                           
+     /*.mabcbbd-content{
+                        font-size:24px;
+                        padding-right:28.3%;
+                        border-radius:10px;
+                        width:50%;
+                        margin-left: 20%;
+                        background-color:rgb(230, 230, 212);
+                        padding-bottom: 20px;
+                        padding-left:20px;
+                        padding-top: 20px;
+                        cursor: crosshair;
+                        }*/
+                        
+     /*.mabcb-blobfish-diet{
+                          text-align: center;
+                          font-size: 64px;
+                          text-decoration: underline;
+                          background-color:rgb(230, 230, 212);
+                          padding:25px;
+                          border-radius: 10px;
+                          cursor:default;
+                          margin-left: 20%;
+                          padding-right:28.5%;
+                          cursor: crosshair;
+                          }*/
